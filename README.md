@@ -22,9 +22,9 @@
 
 3. Что выведет этот скрипт?
  let name = "Ilya"
-alert (`hello ${1}`);      //   hello 1
-alert (`hello ${"name"}`);  // hello name
-alert (`hello ${name}`);   //  hello Ilya
+alert (`hello ${1}`);      //   hello 1  
+alert (`hello ${"name"}`);  // hello name  
+alert (`hello ${name}`);   //  hello Ilya  
  
     
     
@@ -98,3 +98,48 @@ x -= 2;
 console.log(x);
 
 3
+
+
+Практическое задание.
+
+1. 
+let x=40000;
+let y=22000;
+console.log(x+y);
+
+VM86:3 62000
+
+
+2. 
+let x='Владивосток';
+let y=' 2000';
+console.log(x+y);
+
+VM161:3 Владивосток 2000
+
+3. 
+let x=128;
+let y=254;
+let a=137;
+let b=201;
+console.log(x+y+a+b);
+
+720
+
+4. 
+let x=2;
+console.log(2**5);
+
+32
+
+5. 
+let x='Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!';
+console.log(x);
+
+6. 
+const greetings = 'Привет';
+const name = 'Кот';
+const newString = greetings + ',' + ' ' + name;
+console.log(newString);
+
+Привет, Кот
