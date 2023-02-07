@@ -18,7 +18,7 @@
     ```
     
 
-    console.log('Hello World'); Выводит сообщение в консоль  разработчика
+    console.log('Hello World'); Выводит сообщение в консоль  разработчика Hello World
 
 3. Что выведет этот скрипт?
  let name = "Ilya"
