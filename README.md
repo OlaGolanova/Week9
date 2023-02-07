@@ -22,9 +22,9 @@
 
 3. Что выведет этот скрипт?
  let name = "Ilya"
-alert (`hello ${1}`);        hello 1
-alert (`hello ${"name"}`);   hello name
-alert (`hello ${name}`);     hello Ilya
+alert (`hello ${1}`);      //   hello 1
+alert (`hello ${"name"}`);  // hello name
+alert (`hello ${name}`);   //  hello Ilya
  
     
     
@@ -39,10 +39,9 @@ alert (`hello ${name}`);     hello Ilya
     вернёт 7
     
 5. Какими тремя способами можно подключить JavaScript код?
-    1. Внутри тега.
-    C помощью скрипта <script></script> в <head> или <body>
-    2. Скрипт пишется внтури тега <script></script>.
-    3. Скрипт подключается отдельным файлом Index.js, к которому прописывается <script src="index.js"></script>.
+- Внутри любого тега 
+- C помощью скрипта.Скрипт пишется внтури тега <script></script> в <head> или <body>
+- C помощью скрипта. Скрипт подключается отдельным файлом Index.js, к которому прописывается <script src="index.js"></script>.
 
 6. Есть ли какая-то разница между записями `typeof str` и `typeof(str)`?
 
