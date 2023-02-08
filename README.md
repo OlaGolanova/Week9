@@ -2,23 +2,14 @@
 Привет!
 Ответы на Вопросы
 
-1. Какие бывают варианты объявления переменных?
+1. 
 
 Переменную можно задать через ключевое слово var, через ключевое слово let. А также можно прсото присвоить переменной новое значение, после обьявления переменной:
  let x=5;
  x=6; -новое значение переменной.
 
-2. Как можно вывести сообщение "Hello World" с помощью JavaScript?
-    
-    ```jsx
-    msgBox('Hello World');
-    console.log('Hello World');
-    msg('Hello World');
-    alertBox('Hello World');
-    ```
-    
-
-    console.log('Hello World'); Выводит сообщение в консоль  разработчика Hello World
+2.
+  console.log('Hello World'); Выводит сообщение в консоль  разработчика Hello World
 
 3. Что выведет этот скрипт?
  let name = "Ilya"
@@ -30,12 +21,6 @@ alert (`hello ${name}`);   //  hello Ilya
     
 4. Какое значение будет в *z*?
     
-    ```jsx
-    let x = 5;         
-    let y = 2;        
-    let z = x + y;
-    console.log(z);
-    ```  
     вернёт 7
     
 5. Какими тремя способами можно подключить JavaScript код?
@@ -90,11 +75,11 @@ Undefined
     x = 2;
     console.log(x);
     ```
-2
+В x будет 2
 
 10. Что будет в x?
 x = 5; 
 x -= 2;
 console.log(x);
 
-3
+В x будет 3
