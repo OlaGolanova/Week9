@@ -53,22 +53,3 @@ result = `${_fahrenheit_} градуса по Фаренгейту — это ${
 console.log(result);
 
 
-
-// *** Задание под звездочкой
-
-let deposit = 30000;
-const info = 'Ваш депозит на начало расчётного периода составлял ';
-const rubl = ' руб.';
-console.log(info + deposit + rubl);
-let rate =  18.5;
-const proc =  '%';
-console.log('Согласно вашему тарифу, вам была присвоена ставка '+ rate + proc);
-let growth = 150;
-deposit =  30150;
-console.log('К концу расчётного периода прирост составил ' + growth + rubl + ', и на данный момент ваш депозит составляет ' + deposit + rubl)
-let xxx = 700;
-rate =  7;
-let info2  =  'Через год у вас будет';
-let inforu  =  ' руб. на счету';
-let massage  =  `${info2}  ${Number(xxx) + (Number(xxx)/100*rate)} ${inforu} `;
-console.log(massage);
